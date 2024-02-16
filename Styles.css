@@ -1,0 +1,66 @@
+/* CSS reset and box-sizing normalization */
+html, body, div, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Set the font family for the body text */
+  background-color: #f2f2f2; /* Set the background color of the body */
+  color: #0a0a0a; /* Set the text color */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px; /* Set the maximum width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding to the container */
+}
+
+header {
+  background-color: #333; /* Set the background color of the header */
+  color: #fff; /* Set the text color of the header */
+  padding: 20px; /* Add padding to the header */
+  text-align: center; /* Center align the text in the header */
+}
+
+footer {
+  background-color: #333; /* Set the background color of the footer */
+  color: #fff; /* Set the text color of the footer */
+  padding: 10px 0; /* Add padding to the footer */
+  text-align: center; /* Center align the text in the footer */
+}
+
+h1 {
+  font-family: "Georgia", serif; /* Set the font family for h1 */
+  font-size: 2.5rem; /* Set the font size for h1 */
+  margin-bottom: 20px; /* Add margin at the bottom of h1 */
+  text-align: center; /* Center align the text in h1 */
+}
+
+h2 {
+  font-family: "Georgia", serif; /* Set the font family for h2 */
+  font-size: 2rem; /* Adjusted size */
+  margin-bottom: 20px; /* Add margin at the bottom of h2 */
+  text-align: center; /* Center align the text in h2 */
+  color: #87b426; /* Set the text color of h2 */
+}
+
+h3 {
+  font-family: "Georgia", serif; /* Set the font family for h3 */
+  font-size: 1.5rem; /* Adjusted size */
+  margin-bottom: 20px; /* Add margin at the bottom of h3 */
+  color: #157a10; /* Set the text color of h3 */
+}
+
+p {
+  font-family: "Arial", sans-serif; /* Set the font family for paragraphs */
+  font-size: 1.2rem; /* Set the font size for paragraphs */
+  line-height: 1.5; /* Set the line height for paragraphs */
+  margin-bottom: 10px; /* Add margin at the bottom of paragraphs */
+  padding: 0 20px; /* Add padding to paragraphs */
+}
